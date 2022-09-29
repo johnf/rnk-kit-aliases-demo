@@ -26,7 +26,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import {Section, styles} from './src/Section';
+import {Section, styles} from '@demo/Section';
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
